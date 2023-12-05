@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+  <div id="app">
+   
+    <input type="text"> <button @click="addItem()" >add new</button>
+    <ul>
+      <li v-for="skill in skills" >{{ skill }}</li>
+    </ul>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
